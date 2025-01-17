@@ -9,7 +9,7 @@ export default function Cart() {
             </h1>
             <div className="grid grid-cols-3 gap-4">
                 {[...Array(6)].map((_, index) => (
-                    <div className="w-[446px] shadow-2xl rounded-xl p-7 relative">
+                    <div key={index} className="w-[446px] shadow-2xl rounded-xl p-7 relative">
                         <div className=" flex justify-end relative ">
                             <img
                                 src="./yurak.svg"

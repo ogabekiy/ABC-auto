@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import PlaceIcon from "@mui/icons-material/Place";

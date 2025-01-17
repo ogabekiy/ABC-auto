@@ -12,6 +12,7 @@ import Map from './components/Map'
 import Hero from './components/Hero'
 import CarSelector from './components/CarSelector'
 import Cpespredl from './components/Cpespredl'
+import Footer from './components/Footer'
 
 export default function page() {
   return (
@@ -29,6 +30,7 @@ export default function page() {
       <Blog/>
       <AvtoSalon/>
       <Map/>
+      <Footer/>
     </div>
   )
 }
