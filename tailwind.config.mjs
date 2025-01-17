@@ -1,3 +1,5 @@
+import { Mapp } from './app/images';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -13,6 +15,9 @@ export default {
       },
       fontFamily: {
         roboto: ["var(--font-roboto)", "sans-serif"],
+      },
+      backgroundImage: {
+        'map': "url('./images/map.png')",
       },
     },
   },

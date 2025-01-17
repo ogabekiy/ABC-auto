@@ -18,6 +18,25 @@ export { default as Photo } from "./photo.svg";
 
 export { default as BlogPhoto } from "./blog-photo.png";
 
+export { default as Nash1 } from "./nash1.png";
+export { default as Nash2 } from "./nash2.png";
+export { default as Nash3 } from "./nash3.png";
+
+export { default as Boks } from "./boks.png";
+export { default as AllRed } from "./allred.png";
+
+export { default as Mapp } from "./map.png";
+
+export { default as Location } from "./location.png";
+
+
+
+
+
+
+
+
+
 
 
 

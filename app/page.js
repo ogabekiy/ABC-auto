@@ -6,10 +6,21 @@ import Otziviy from './components/Otziviy'
 import Company from './components/Company'
 import AvtoSalon from './components/AvtoSalon'
 import Blog from './components/Blog'
+import Nashi from './components/Nashi'
+import Cart from './components/Avtomobile'
+import Map from './components/Map'
+import Hero from './components/Hero'
+import CarSelector from './components/CarSelector'
+import Cpespredl from './components/Cpespredl'
 
 export default function page() {
   return (
     <div>
+      <Hero/>
+      <CarSelector/>
+      <Cart/>
+      <Nashi/>
+      <Cpespredl/>
       <Zayafka/>
       <BankPartnyor/>
       <NamDoveryayut/>
@@ -17,6 +28,7 @@ export default function page() {
       <Company/>
       <Blog/>
       <AvtoSalon/>
+      <Map/>
     </div>
   )
 }
