@@ -8,9 +8,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        primaryBlack: "#1a1a1a",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+    },
+    container: {
+      center: true,
     },
   },
   plugins: [],
